@@ -22,3 +22,6 @@ from users.models import User
 @admin.register(User)
 class UserAdmin(BaseUserAdmin):
     pass
+
+# crear los estaticos en caso de que no se vea la documentación de swagger
+python manage.py collectstatic
