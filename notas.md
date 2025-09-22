@@ -31,3 +31,6 @@ pip install djangorestframework-simplejwt
 
 # peticiones con filtros
 pip install django-filter
+
+# Para usar ImageField 
+python -m pip install Pillow
