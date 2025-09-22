@@ -28,3 +28,6 @@ python manage.py collectstatic
 
 # login con jwt
 pip install djangorestframework-simplejwt
+
+# peticiones con filtros
+pip install django-filter
